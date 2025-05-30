@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 2px solid #ff00ff;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #ff00ff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+.hero {
+  background: radial-gradient(circle, rgba(255,0,255,0.3), rgba(0,0,0,0.9));
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #d0d0ff;
+}
+
+.cta {
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+.pc-gamer {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a2e;
+  border: 2px solid #00ffff;
+  border-radius: 15px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 0 15px #00ffff40;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00ffffaa;
+}
+
+.card h3 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ffffff;
+  font-size: 0.95em;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 36px;
+  text-decoration: none;
+  color: #25D366;
+}
